@@ -54,46 +54,45 @@ In our above example suppose operating frequency is 9GHZ λ0=3.33CM.where c is v
 7.	convert g into dB in above exampleG dB =10LOG318=15.02DB
 8.	the same setup can be used for other frequency of operation.
 
+9.	The NIST Microwave Uncertainty Framework (MUF) is used to process all of the measurements. The MUF utilizes parallel sensitivity and Monte-Carlo analyses and enables us to capture and propagate the significant scattering parameters measurement uncertainties and statistical correlations between them. By identifying and modeling the physical error mechanisms in the calibration standards, we can determine the statistical correlations between both the scattering-parameters at a single frequency and uncertainties at different frequencies.
+
+The existing SOLT calibration process uses two different types of loads. If frequencies above 2 GHz are being used, a sliding load is used. The sliding load is not used because the fixed load is used below 2 GHz and above 2 GHz. For the new method, necessary because the sliding load was loads do not have a flat response across a broad frequency band. By measuring the response of the fixed load, any deviations from a flat response are accounted for and corrected. For the new technique, the fixed load is used across the entire frequency band.
+
+
+
+
 **BLOCK DIAGRAM:**
 
 <img width="638" height="177" alt="image" src="https://github.com/user-attachments/assets/0e3f554a-c54b-42a4-bc48-1c3b3dd5f5fc" />
 
 **TABULATION:** 
+<img width="356" height="495" alt="image" src="https://github.com/user-attachments/assets/44eeed49-9489-4021-a7ab-5a75e156abdd" />
+<img width="409" height="580" alt="image" src="https://github.com/user-attachments/assets/8e5259df-4aa4-4246-bab0-ce2410c476d7" />
 
-<img width="896" height="610" alt="image" src="https://github.com/user-attachments/assets/3178cbdd-f0e7-4636-afca-af292306fa3c" />
 
 
-**HORN ANTENNA** 
 
-<img width="808" height="181" alt="image" src="https://github.com/user-attachments/assets/21732f4d-031d-484d-a3da-f3836ef416a7" />
 
-<img width="809" height="155" alt="image" src="https://github.com/user-attachments/assets/35cec619-9b06-4535-b55f-661f90eb6858" />
 
-Beam voltage	: 7.5V
 
-Beam current	 : 220mA
 
 **PARABOLICANTENNA**
 
-<img width="941" height="266" alt="image" src="https://github.com/user-attachments/assets/1763aec5-de12-4427-a7ac-52aac4a8714d" />
-
-<img width="868" height="157" alt="image" src="https://github.com/user-attachments/assets/60be9d50-a2e3-4365-bcdc-14dd92fa051b" />
-
-Beam voltage	: 7.5V
-
-Beam current	 : 220mA
-
-Repeller voltage : -3V
-
-V1 : 1.00V
+Beam width of Parabolic antenna 20 degree
+	
 
 **RESULT:**
 
-Thus the polar pattern and the gain of a waveguide horn antenna and parabolicantenna was measured and plotted.
+Thus the polar pattern and the gain of a  parabolicantenna was measured and plotted.
 
-Beamwidth of horn antenna :
 
-Beamwidth of parabolic antenna:		
+Beamwidth of parabolic antenna:	20*	
+
+## CONCLUSION
+
+A new technique has been described that was microwane Uncutainty Framework to establish au determined with well-defined tranceablity parth for soL7 calibrations In addition, measurments results Correlated uncutaints. Repeated parses through the procus Yeilded repeatable magnitude and phaSE is measured.
+
+
 
 
 
